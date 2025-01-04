@@ -162,3 +162,4 @@ docs/site
 flatbuffers.vcxproj
 flatbuffers.vcxproj.filters
 out/
+x64/
