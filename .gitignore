@@ -161,5 +161,6 @@ docs/site
 
 flatbuffers.vcxproj
 flatbuffers.vcxproj.filters
+flatbuffers.vcxproj.user
 out/
 x64/
