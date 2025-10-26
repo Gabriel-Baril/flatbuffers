@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class FlatbuffersProject : BaseCppProject
+public class HdnCodeExternalFlatbuffersProject : BaseCppProject
 {
-    public FlatbuffersProject()
+    public HdnCodeExternalFlatbuffersProject()
     {
-        Name = "flatbuffers";
+        Name = "hdn.code.external.flatbuffers";
         // SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
