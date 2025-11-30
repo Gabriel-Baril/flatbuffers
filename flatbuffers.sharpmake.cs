@@ -6,7 +6,7 @@ public class HdnCodeExternalFlatbuffersProject : BaseCppProject
 {
     public HdnCodeExternalFlatbuffersProject()
     {
-        Name = "hdn.code.external.flatbuffers";
+        Name = "dm.code.external.flatbuffers";
         // SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
